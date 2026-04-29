@@ -1,7 +1,7 @@
 public class Motorcycle extends Vehicle {
 
-    public Motorcycle(String brand, int speed) {
-        super(brand, speed);
+    public Motorcycle(String brand, int year, int speed) {
+        super(brand, year, speed);
     }
 
     @Override

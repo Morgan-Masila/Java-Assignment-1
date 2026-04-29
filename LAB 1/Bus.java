@@ -1,7 +1,7 @@
 public class Bus extends Vehicle {
 
-    public Bus(String brand, int speed) {
-        super(brand, speed);
+    public Bus(String brand, int year, int speed) {
+        super(brand, year, speed);
     }
 
     @Override

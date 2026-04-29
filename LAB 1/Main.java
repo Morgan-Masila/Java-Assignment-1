@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Creating an object of Sedan
-        Sedan sedan = new Sedan("Toyota", 120);
+        Sedan sedan = new Sedan("Toyota", 120, 0);
 
         // Method Overriding
         // Calls the overridden method in Sedan

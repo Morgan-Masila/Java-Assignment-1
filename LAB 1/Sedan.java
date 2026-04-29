@@ -1,7 +1,7 @@
 class Sedan extends Vehicle implements Automobile {
 
-    Sedan(String brand, int speed) {
-        super(brand, speed);
+    Sedan(String brand, int year, int speed) {
+        super(brand, year, speed);
     }
 
     // Interface methods
