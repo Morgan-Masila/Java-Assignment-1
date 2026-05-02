@@ -1,6 +1,6 @@
-class SportsCar extends Vehicle implements Automobile {
+public class SportsCar extends Vehicle implements Automobile {
 
-    SportsCar(String brand, int year, int speed) {
+    public SportsCar(String brand, int year, int speed) {
         super(brand, year, speed);
     }
 
